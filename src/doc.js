@@ -15,13 +15,15 @@ So you can learn about them with games involved 😀, which always makes things 
 ║                                                                                      ║
 ║                   Running game:                                                      ║
 ║                   https://retrogameapi-0.herokuapp.com/{game}/html                   ║
-║                                                          |                           ║
-║                         snake ---------------------------┤---------┐                 ║
-║                         tetris --------------------------┤---------|                 ║
-║                         spaceInvaders -------------------┘---------|                 ║
-║                                                                    |                 ║
-║     Code:                                                          |                 ║
-║     https://github.com/AdamGonda/retrogameapi/tree/main/src/games/{game}/frontend    ║
+║                                                          ┃                           ║
+║                                                          ┃                           ║
+║                                 snake ━━━━━━┓            ┃                           ║
+║                                tetris ━━━━━━╋━━━━━━━━━━━━┻━━━━━━━━━━┓                ║
+║                         spaceInvaders ━━━━━━┛                       ┃                ║
+║                                                                     ┃                ║
+║                                                                     ┃                ║
+║   Code:                                                             ┃                ║
+║   https://github.com/AdamGonda/retrogameapi/tree/master/src/games/{game}/frontend    ║
 ║                                                                                      ║
 ╚══════════════════════════════════════════════════════════════════════════════════════╝
 
