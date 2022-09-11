@@ -14,7 +14,7 @@ So you can learn about them with games involved 😀, which always makes things 
 ╔════════════════════════════════ Example implementations ═════════════════════════════╗
 ║                                                                                      ║
 ║                   Running game:                                                      ║
-║                   https://retrogameapi-0.herokuapp.com/{game}/html                   ║
+║                   https://sore-plum-boa-veil.cyclic.app/{game}/html                   ║
 ║                                                          ┃                           ║
 ║                                                          ┃                           ║
 ║                                 snake ━━━━━━┓            ┃                           ║
@@ -43,7 +43,7 @@ API
 
 const availableInputs: [ "RIGHT", "LEFT", "UP", "DOWN" ]
 
-// for init call -> GET - https://retrogameapi-0.herokuapp.com/snake/init
+// for init call -> GET - https://sore-plum-boa-veil.cyclic.app/snake/init
 const response = {
   "snake": {
     "body": [
@@ -67,7 +67,7 @@ const response = {
   "isGameOver": false
 }
 
-// for update call -> POST - https://retrogameapi-0.herokuapp.com/snake/update
+// for update call -> POST - https://sore-plum-boa-veil.cyclic.app/snake/update
 const payload = {
   "state": {
     "snake": {
@@ -138,7 +138,7 @@ API
 
 const availableInputs: [ "RIGHT", "LEFT", "UP", "DOWN" ]
 
-// for init call -> GET - https://retrogameapi-0.herokuapp.com/space-invaders/init
+// for init call -> GET - https://sore-plum-boa-veil.cyclic.app/space-invaders/init
 const response = {
   "ship": {
     "x": 18,
@@ -174,7 +174,7 @@ const response = {
   "isGameOver": false
 }
 
-// for update call -> POST - https://retrogameapi-0.herokuapp.com/space-invaders/update
+// for update call -> POST - https://sore-plum-boa-veil.cyclic.app/space-invaders/update
 const payload = {
   "state": {
     "ship": {
@@ -280,7 +280,7 @@ API
 
 const availableInputs: [ "RIGHT", "LEFT", "UP", "DOWN" ]
 
-// for init call -> GET - https://retrogameapi-0.herokuapp.com/tetris/init
+// for init call -> GET - https://sore-plum-boa-veil.cyclic.app/tetris/init
 const response = {
   "active": {
     "items": [
@@ -338,7 +338,7 @@ const response = {
 }
 
 
-// for update call -> POST - https://retrogameapi-0.herokuapp.com/tetris/update
+// for update call -> POST - https://sore-plum-boa-veil.cyclic.app/tetris/update
 const payload = {
   "state": {
     "active": {
